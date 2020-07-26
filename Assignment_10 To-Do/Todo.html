@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome icon  -->
+    <script src="https://kit.fontawesome.com/e941257566.js" crossorigin="anonymous"></script>
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1><span class="title">TODO</span>List</h1>
+    <div class="input_div">
+        <input type="text" class="input" id="toDo" placeholder="What Do You Want To Do ..">
+        <button class="addButton" onclick="addTodo()"><i class="fas fa-plus-circle"></i></button>
+        <button class="addButton" onclick="dltAll()"><i class="far fa-trash-alt" ></i></button>
+
+    </div>
+    <div class="container">
+        <div class="item" id="item">
+            <ul id="list">
+
+            </ul>
+            <!-- <input type="text" class="item_input" disabled>
+            <button class="edit"><i class="far fa-edit"></i></button>
+            <button class="remove"><i class="fas fa-minus-circle"></i></button> -->
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
